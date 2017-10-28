@@ -20,6 +20,7 @@ nav {
   padding: 1rem 0;
   background-color: cadetblue;
   color: white;
+
 }
 
 .container-cadetblue {
@@ -57,17 +58,14 @@ nav li {
   display: none;
 }
 
-.main-container: {
-  display: flex;
-}
-
 header .main-container {
   justify-content: flex-end;
 }
 
-header .headline {
-    justify-content: flex-end;
-  }
+.main-container {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .headline {
   display: inline-block;
@@ -82,4 +80,70 @@ header .headline {
     font-size: 2rem;
     line-height: 1.2;
     font-weight: bold;
+  }
+
+
+  /* Supporting Sections */
+
+  .subcontainer, .subcontainer2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Service Section */
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+    height: 8rem;
+    margin: 3rem;
+    text-align: center;
+  }
+
+  .service img {
+    width: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .service img.paper-icon {
+    width: 3.5rem;
+  }
+
+  /* Info Section */
+
+  .info {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+  }
+
+  .info p {
+    padding: 1rem 0;
+  }
+
+  .title {
+    max-width: 10rem;
+    padding: 0.5rem 1.25rem;
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    padding: 4rem 2rem;
+  }
+
+  footer img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
   }
